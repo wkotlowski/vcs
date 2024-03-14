@@ -11,8 +11,8 @@ Verifiable credentials allow for the creation, presentation, and verification of
 1. **Clone the Repository**.
 
 ```bash
-git clone [your-repository-url]
-cd [your-repository-name]
+git clone git@github.com:wkotlowski/vcs.git
+cd vcs
 ```
 
 2. **Install Dependencies**.
