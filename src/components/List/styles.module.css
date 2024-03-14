@@ -1,0 +1,21 @@
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+  }
+  
+  .checkmark::before {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: var(--ifm-color-primary);
+      margin-right: 8px;
+      content: "✓";
+      color: white;
+      font-size: 18px;
+      font-weight: bolder;
+    }

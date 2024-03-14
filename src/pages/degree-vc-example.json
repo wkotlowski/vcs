@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1.1"
+  ],
+  "type": ["VerifiableCredential", "UniversityDegreeCredential"],
+  "id": "urn:credential:123456789-1010",
+  "issuer": "did:web:roma-university.com",
+  "issuanceDate": "2023-05-15T10:20:30Z",
+  "credentialSubject": {
+    "id": "did:example:123456789abcdefghi",
+    "studentIdentifier": "123456789",
+    "name": "Marcus Tullius",
+    "dateOfBirth": "1993-03-31",
+    "degreeEarned": "Bachelor of Arts in Philosophy",
+    "issueDate": "2023-05-15",
+    "universityName": "University of Rome",
+    "gender": "Male"
+  },
+  "credentialStatus": {
+    "id": "https://roma-university.com/vcs/credential/status/33",
+    "type": "CredentialStatusList2023"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2023-05-15T10:20:30Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "https://roma-university.com/keys/9",
+    "proofValue": "z3ht4KPvnzDcUZKL5mY6PvZioQfgsC7z2nk2G8QJ3R8m5NzPF9t5JH8kzZ9RfzT5pX3z6rL7v89mp9yV7sN6xjg9Q"
+  }
+}

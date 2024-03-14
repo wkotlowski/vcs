@@ -1,0 +1,31 @@
+.featureBlockContainer {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+  }
+  
+  .featureImgContainer {
+    margin: 40px;
+    flex: 0 0 430px;
+  }
+  
+  .featureImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .featureBlockText {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1;
+  }
+  
+  
+  .featureDescription p {
+    max-width: 300px !important;
+    word-wrap: break-word;
+  }
+  

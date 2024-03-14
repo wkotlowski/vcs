@@ -1,41 +1,44 @@
-# Website
+# Project Name: Verifiable Credentials Compendium
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the Verifiable Credentials Knowledge Base, a comprehensive resource built using the latest Docusaurus framework. This project is dedicated to educating users about verifiable credentials, detailing what they are, their significance, and listing all available standards related to verifiable credentials.
 
-### Installation
+## What Are Verifiable Credentials?
 
-```
-$ yarn
-```
+Verifiable credentials allow for the creation, presentation, and verification of digital assertions. They are a foundational element in building trust on the web, enabling entities to share information in a secure, verifiable manner.
 
-### Local Development
+## Getting Started
 
-```
-$ yarn start
-```
+1. **Clone the Repository**.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+git clone [your-repository-url]
+cd [your-repository-name]
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+2. **Install Dependencies**.
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm install
 ```
 
-Not using SSH:
+3. **Start the development server**.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+npm start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This will launch the project in your browser at `http://localhost:3000`.
+
+## Contributing
+
+Contributions to this project are welcome! Whether it's improving the documentation, adding new sections, or reporting issues, your input is valuable.
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -am 'Add some AmazingFeature`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT license. See the LICENSE file for details.
