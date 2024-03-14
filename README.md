@@ -1,4 +1,4 @@
-# Project Name: Verifiable Credentials Compendium
+# Verifiable Credentials Knowledge Base
 
 Welcome to the Verifiable Credentials Knowledge Base, a comprehensive resource built using the latest Docusaurus framework. This project is dedicated to educating users about verifiable credentials, detailing what they are, their significance, and listing all available standards related to verifiable credentials.
 
