@@ -2,7 +2,7 @@ import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import SectionBlock from "../components/SectionBlock/sectionBlock";
-import List from "../components/List/list";
+import List from "../components/List/List";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 import CodeBlock from "@theme/CodeBlock";
